@@ -12,7 +12,7 @@ for (var key in resources) {
     
     };
   }
-  script[index].src = sources[key];
+  script[index].src = resources[key];
   document.getElementsByTagName('head')[0].appendChild(script[index]);
   index++;
 }
